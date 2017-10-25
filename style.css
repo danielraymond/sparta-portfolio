@@ -1,6 +1,10 @@
+header {
+    margin: 0px;
+    font-size: 0px;
+}
+
 body {
   margin: 0px;
-  font-size: 0;
 }
 
 nav {
@@ -16,7 +20,6 @@ ul {
   width: 100%;
   margin: 0;
   padding: 0;
-  border: 1px black;
 }
 
 li {
