@@ -67,12 +67,23 @@ main {
 }
 
 #second-row {
-  margin-top: 300px;
+  margin-top: 312px;
   height: 400px;
+  background-color: #a5a5a5;
+  text-align: justify;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
 }
 
 #third-row {
   height: 400px;
+  background-color: lightgray;
 }
 
 @media screen and (max-width: 480px) {
@@ -89,4 +100,22 @@ main {
   main {
     width: 100%;
   }
+
+  .background {
+    width: auto;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+
+  #second-row{
+    height: auto;
+  }
+
+  #third-row{
+    height: auto;
+  }
+
 }
