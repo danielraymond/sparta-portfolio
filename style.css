@@ -86,6 +86,20 @@ p {
   background-color: lightgray;
 }
 
+.btn-group {
+  margin: auto;
+  object-position: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: auto;
+  width: 100px;
+  border-radius: 10px;
+  border-style: solid;
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   nav {
     height: auto;
