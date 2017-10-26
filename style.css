@@ -38,6 +38,13 @@ body {
   font-family: Arial;
 }
 
+.background {
+  width: 100%;
+  z-index: 1;
+  margin: auto;
+  height: 715px;
+}
+
 main {
   display: inline-block;
   width: 50%;
@@ -46,11 +53,10 @@ main {
 }
 
 .image {
-  display: inline-block;
   width: 50%;
-  float: right;
   height: 300px;
   background-color: lightblue;
+  z-index: 10;
 }
 
 @media screen and (max-width: 480px) {
